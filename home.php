@@ -52,6 +52,7 @@ if (isset($get_url)) {
 <head>
     <title>Notepad Plus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Notepad Online, save your note, Safe your note. Notepad save notes online, save notes, notepad online, online notepad, simple notepad, codepad" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <script src="/js/jquery-1.10.1.min.js"></script>
