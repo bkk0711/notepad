@@ -13,7 +13,7 @@
   - Phát hiện lỗi cú pháp ( 1 số ngôn ngữ )
   - Tự động lưu, không cần load trang
   
- * Phiên bản 2.0
+ * Phiên bản 2.0 (Future)
    - AdminPanel
    - Mật khẩu bảo vệ 
    - Subdomain riêng
