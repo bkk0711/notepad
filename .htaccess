@@ -1,0 +1,16 @@
+DirectoryIndex index.php
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ %{REQUEST_FILENAME} [L]
+
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.php -f
+RewriteRule ^ %{REQUEST_FILENAME}/index.php [L]
+
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.php !-f
+RewriteRule ^ 404/ [L]
+RewriteRule ^share/(.*[^/]) view.php?public_url=$1 [QSA,L]
+RewriteRule ^(.*[^/]) home.php?public_url=$1 [QSA,L]
