@@ -1,7 +1,7 @@
 # Code Notepad online 
 ![](https://i.imgur.com/DSvxMGR.png)
 ## Information
-  >@Name of project : Notepad v1.0 <br/> @Version : 1.0 <br/> @Author : Khoi Bui
+  >@Name of project : Notepad v1.0 <br/> @Version : 1.0 <br/> @Author : Khoi Bui<br/> @Copyright  : Copyright (C) 2019-2020 Khoi Bui
 * Cách dùng :
   - Upcode lên vps/hosting
   - Config db.php
