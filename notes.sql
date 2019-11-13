@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost:3306
--- Thời gian đã tạo: Th10 12, 2019 lúc 04:13 PM
+-- Thời gian đã tạo: Th10 13, 2019 lúc 09:01 AM
 -- Phiên bản máy phục vụ: 10.2.27-MariaDB-log-cll-lve
 -- Phiên bản PHP: 7.2.7
 
@@ -32,11 +32,8 @@ CREATE TABLE `notes` (
   `id` int(11) NOT NULL,
   `url` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `note` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `datetime` datetime DEFAULT NULL,
   `public_url` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `ip` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `month` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `year` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `time` int(11) NOT NULL DEFAULT current_timestamp(),
   `mode` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL,
   `theme` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL,
